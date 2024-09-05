@@ -8,6 +8,7 @@ Misc:
 - `B` Open backpack
 - `H` Open firstaid menu
 - `X` Open crafting on a stick
+- `G` Open curios menu
 
 Xero's mini/world map:
 - `M` Open map
