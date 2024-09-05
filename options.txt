@@ -250,7 +250,7 @@ key_key.tacz.inspect.desc:key.keyboard.h:SHIFT
 key_key.tacz.reload.desc:key.keyboard.r:SHIFT
 key_key.tacz.shoot.desc:key.mouse.left
 key_key.tacz.interact.desc:key.keyboard.o
-key_key.tacz.fire_select.desc:key.keyboard.g
+key_key.tacz.fire_select.desc:key.keyboard.g:SHIFT
 key_key.tacz.aim.desc:key.mouse.right
 key_key.tacz.refit.desc:key.keyboard.z
 key_key.tacz.zoom.desc:key.keyboard.c

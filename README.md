@@ -22,6 +22,7 @@ Iron Jetpacks:
 Timeless and classics:
 - `Shift + R` Reload gun
 - `Shift + H` Inspect gun
+- `Shift + G` Configure fire mode
 - `Left click` Shoot
 - `Right click` Aim
 - `C` Zoom
