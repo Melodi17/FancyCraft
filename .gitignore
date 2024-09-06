@@ -7,7 +7,9 @@
 /downloads
 /backups
 /crash-reports
+
 usercache.json
 usernamecache.json
 config/jade/jade.json
-config/jade/jade.json
+config/oculus.properties
+config/xaerominimap_entities.json
