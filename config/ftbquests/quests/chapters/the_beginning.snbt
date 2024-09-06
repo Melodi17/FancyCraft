@@ -1,9 +1,45 @@
 {
+	autofocus_id: "49DA83EDAB77A8A2"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_beginning"
 	group: ""
+	icon: "minecraft:paper"
 	id: "2D4BCB08213C2D01"
+	images: [
+		{
+			height: 1.0d
+			image: "chipped:block/pointed_dripstone/packed_ice_pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/bed"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "firstaid:item/morphine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -3.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -11,15 +47,28 @@
 			id: "49DA83EDAB77A8A2"
 			subtitle: "Due to dynamic tree's making thicker trees unable to be broken with your fist, you will need to punch the leaves for sticks or break logs on the ground."
 			tasks: [{
-				id: "39E18E10ABC50289"
-				item: "minecraft:oak_log"
-				title: "Obtaining wood"
+				id: "08B8E6C8D3875DA1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any log"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "alexsmobs:ghostly_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3C5CAC899697543F"
 			shape: "diamond"
 			subtitle: "Hold tilde/grave (`) to veinmine (using ftb ultimine)."
@@ -28,29 +77,39 @@
 				title: "Vein mining"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["49DA83EDAB77A8A2"]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0391ED5C6E5C6888"
+			subtitle: "Get yourself an axe so you can actually harvest thick trees."
 			tasks: [{
-				id: "4701E4AE84AE4E72"
+				id: "4255E50BC7D53A40"
 				item: {
 					Count: 1
-					id: "minecraft:stone_axe"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "forge:tools/axes"
 					}
 				}
+				title: "Any axe"
 				type: "item"
 			}]
 			title: "Harvesting more wood"
-			x: -1.0d
-			y: -2.0d
+			x: -7.0d
+			y: -5.0d
 		}
 		{
 			id: "117D840F6F90FEDE"
+			shape: "diamond"
 			subtitle: "This is a portable crafting table that you can use anywhere using the keybind X, put it in your crafting on a stick slot on curio using G."
 			tasks: [{
 				id: "3B60D1F63C02DACB"
@@ -58,8 +117,8 @@
 				type: "item"
 			}]
 			title: "Portable crafting table"
-			x: -0.5d
-			y: -3.5d
+			x: -7.5d
+			y: -6.5d
 		}
 		{
 			id: "0723E4A08C3022D3"
@@ -70,8 +129,8 @@
 				type: "item"
 			}]
 			title: "Backpacks"
-			x: 1.0d
-			y: -3.5d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			id: "5F8733B102DB9A89"
@@ -95,10 +154,11 @@
 				}
 			]
 			title: "Realistic torches"
-			x: 2.0d
-			y: -2.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
+			icon: "bhc:red_heart"
 			id: "5F790EC676D213D2"
 			subtitle: "First aid makes it so that each limb of your body (plus head and torso) have their own health points. Press H or refer to the ragdoll in the bottom right for your current stats."
 			tasks: [{
@@ -106,27 +166,37 @@
 				title: "Locational health"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -4.0d
+			x: -8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5F790EC676D213D2"]
 			id: "52627F4F40FB5403"
 			subtitle: "Tired of walking slow huh? Use these to regenerate health on parts of your body."
-			tasks: [
-				{
-					id: "23890AC313EB925F"
-					item: "firstaid:bandage"
-					type: "item"
+			tasks: [{
+				id: "532C4816C97C49EB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "firstaid:bandage"
+							}
+							{
+								Count: 1b
+								id: "firstaid:plaster"
+							}
+						]
+					}
 				}
-				{
-					id: "01F3AC32EF79904B"
-					item: "firstaid:plaster"
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: -5.5d
+				title: "Bandage or plaster"
+				type: "item"
+			}]
+			title: "Patching yourself up"
+			x: -10.0d
+			y: -2.5d
 		}
 		{
 			id: "054882158B98AC93"
@@ -144,8 +214,8 @@
 				type: "item"
 			}]
 			title: "Drinking water"
-			x: 4.0d
-			y: -2.5d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["054882158B98AC93"]
@@ -156,10 +226,11 @@
 				title: "Water purification"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
+			icon: "cold_sweat:thermometer"
 			id: "4EB4BC2910C108E7"
 			subtitle: "The environment can affect you in many ways, such as heatstroke, hypothermia, keep an eye on your temperature (the square between your health bars)."
 			tasks: [{
@@ -167,46 +238,106 @@
 				title: "Environmental effects"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4EB4BC2910C108E7"]
 			id: "05C1A03857BFA761"
 			subtitle: "The goat fur armor set can help keep you warm in cold environments and during winter."
 			tasks: [{
-				id: "700B2833B35B3610"
+				id: "29BE030EE1F6AE58"
 				item: {
 					Count: 1
-					id: "cold_sweat:goat_fur_cap"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "cold_sweat:goat_fur_cap"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cold_sweat:goat_fur_parka"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cold_sweat:goat_fur_pants"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cold_sweat:goat_fur_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
+				title: "Goat fur set"
 				type: "item"
 			}]
 			title: "Staying warm"
-			x: 3.0d
-			y: 0.0d
+			x: -5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4EB4BC2910C108E7"]
 			id: "2B06531AF22734B8"
-			subtitle: "Is it really hot? are you in the nether? I'd recommend making hoglin armor set to keep you cool."
+			subtitle: "Is it really hot? Are you in the nether? I'd recommend making hoglin armor set to keep you cool."
 			tasks: [{
-				id: "2BE24F0E40E5ED68"
+				id: "15970722637135E2"
 				item: {
 					Count: 1
-					id: "cold_sweat:hoglin_headpiece"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "cold_sweat:hoglin_headpiece"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cold_sweat:hoglin_tunic"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cold_sweat:hoglin_trousers"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cold_sweat:hoglin_hooves"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
+				title: "Hoglin set"
 				type: "item"
 			}]
 			title: "Staying cool"
-			x: 1.0d
-			y: 0.5d
+			x: -3.0d
+			y: -7.5d
 		}
 		{
 			id: "464704EE9810024D"
@@ -217,9 +348,358 @@
 				type: "item"
 			}]
 			title: "Sleeping on the go"
-			x: -2.5d
-			y: -0.5d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "7CAA60FC2B30BB27"
+			tasks: [{
+				id: "325A11B29820EB46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3002141B03EBA6F1"]
+			id: "48A9E620AB1CF297"
+			subtitle: "Mystical agriculture allows you to grow ores and mobs."
+			tasks: [{
+				id: "4627CF7963E94EB3"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			title: "Into the world of growing ores"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EB4BC2910C108E7"]
+			id: "6C264BFDDDD52899"
+			subtitle: "Is fit for both environments, but is less effective"
+			tasks: [{
+				id: "59F9FEE79F5C520B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:leather_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:leather_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:leather_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:leather_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Leather set"
+				type: "item"
+			}]
+			title: "Just right"
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D52BA6552AF8C36"
+			subtitle: "It's called Minecraft for a reason right?"
+			tasks: [{
+				id: "58C9D80C5CC158FA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/pickaxes"
+					}
+				}
+				type: "item"
+			}]
+			title: "Might need a pickaxe"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EB4BC2910C108E7"]
+			id: "53C236E3B79D9A8D"
+			subtitle: "You can use a sewing table to embed materials into your armor to make it better for specific climates. Yay! no more leather armor."
+			tasks: [{
+				id: "4B4EBB8791212DC1"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			title: "Making your other armor more environmentally friendly"
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5F8733B102DB9A89"]
+			id: "2CAC4A088A6AF895"
+			subtitle: "You can make normal torches that don't go out using glowstone crystals."
+			tasks: [{
+				id: "3CD4D196000F4C2C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "Don't worry, there is a solution"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D52BA6552AF8C36"]
+			icon: {
+				Count: 1
+				id: "mekanismtools:iron_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "782EB1F976B4A5EC"
+			shape: "diamond"
+			subtitle: "A paxel is a shovel, pickaxe, axe, all in one!"
+			tasks: [{
+				id: "295E92EB3F2203A6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/paxels"
+					}
+				}
+				title: "Any paxel"
+				type: "item"
+			}]
+			title: "A multitool!"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3002141B03EBA6F1"]
+			id: "029AC0230E9FDB9E"
+			subtitle: "Botany pots let you grow plants inside of them! Like a mini version."
+			tasks: [{
+				id: "5299DA21A151E8E8"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			title: "Botany pots"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["029AC0230E9FDB9E"]
+			id: "5D942FA1FEC383E7"
+			subtitle: "Same as the botany pot, but it can deposit into a chest or other storage block underneath it."
+			tasks: [{
+				id: "1649FE95F0EB406F"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			title: "Hopper botany pots"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "3002141B03EBA6F1"
+			tasks: [{
+				id: "416800F46DECA255"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any seed"
+				type: "item"
+			}]
+			title: "Touching your farming side"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D52BA6552AF8C36"]
+			id: "67F3CE22F4980939"
+			subtitle: "Thanks to Create, we have copper tools now too."
+			tasks: [{
+				id: "3E334814CF973D12"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"cold_sweat:item_insulation": {
+										Insulation: [ ]
+									}
+								}
+								id: "create_sa:copper_helmet"
+								tag: {
+									Damage: 0
+									Insulation: [ ]
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"cold_sweat:item_insulation": {
+										Insulation: [ ]
+									}
+								}
+								id: "create_sa:copper_chestplate"
+								tag: {
+									Damage: 0
+									Insulation: [ ]
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"cold_sweat:item_insulation": {
+										Insulation: [ ]
+									}
+								}
+								id: "create_sa:copper_leggings"
+								tag: {
+									Damage: 0
+									Insulation: [ ]
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"cold_sweat:item_insulation": {
+										Insulation: [ ]
+									}
+								}
+								id: "create_sa:copper_boots"
+								tag: {
+									Damage: 0
+									Insulation: [ ]
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:copper_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:copper_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:copper_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:copper_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:copper_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any copper tool or armor"
+				type: "item"
+			}]
+			title: "Copper tools!"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D52BA6552AF8C36"]
+			id: "4BC62F64FCA13E6E"
+			shape: "diamond"
+			subtitle: "Ore hammers allow you to increase the ore yield per ore, by crushing it into dust then smelting it."
+			tasks: [{
+				id: "3A2948AE2F783D19"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alltheores:ore_hammers"
+					}
+				}
+				title: "Any ore hammer"
+				type: "item"
+			}]
+			title: "Ore hammers"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48A9E620AB1CF297"]
+			id: "09C2F52E56F996E5"
+			subtitle: "Might need these to make a lot of inferium."
+			tasks: [{
+				id: "388FD2C4BC306748"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			title: "Inferium seeds"
+			x: 7.0d
+			y: 1.0d
 		}
 	]
-	title: "The Beginning"
+	title: "Guide"
 }

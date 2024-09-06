@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4B1EB2D999F44465"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59D2B258B1BFE051"
+			subtitle: "Get all the information items."
+			tasks: [
+				{
+					id: "31A852BCBADDFCED"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					id: "76095C98C64D15FB"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					id: "48BCCBD0C39EDB87"
+					item: "sereneseasons:calendar"
+					type: "item"
+				}
+				{
+					id: "56DB51432DA13986"
+					item: "cold_sweat:thermometer"
+					type: "item"
+				}
+				{
+					id: "0990714726C1BD92"
+					item: "supplementaries:wind_vane"
+					type: "item"
+				}
+			]
+			title: "I know everything!"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "6FDC2AE4FE097B1A"
+			subtitle: "Visit the spatial storage dimension"
+			tasks: [{
+				dimension: "ae2:spatial_storage"
+				id: "5EE3E3E3E2257EE9"
+				title: "Visit spatial storage dimension"
+				type: "dimension"
+			}]
+			title: "How on... AE2 did we get here?"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "1B6662FBBCD7C551"
+			subtitle: "Get the awakened supremium block. Quite a feat."
+			tasks: [{
+				id: "4F0068E9E41A05F8"
+				item: "mysticalagriculture:awakened_supremium_block"
+				type: "item"
+			}]
+			title: "Master farmer"
+			x: 3.0d
+			y: -6.0d
+		}
+	]
+	title: "Challenges"
+}
