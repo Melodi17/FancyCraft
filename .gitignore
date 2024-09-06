@@ -10,6 +10,7 @@
 
 usercache.json
 usernamecache.json
-config/jade/jade.json
-config/oculus.properties
-config/xaerominimap_entities.json
+/config/jade/jade.json
+/config/oculus.properties
+/config/xaerominimap_entities.json
+/config/sound_physics_remastered
