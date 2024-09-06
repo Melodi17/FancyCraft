@@ -1,4 +1,29 @@
 # FancyCraft
+![](img/banner.png)
+
+## Overview
+This pack is a combination of tech, magic and exploration. It is based of **All the mods 9** and **RLCraft**.
+
+## Starter's guide
+1. Obtaining wood: **Due to dynamic tree's making thicker trees unable to be broken with your fist, you will need to punch the leaves for sticks or break logs on the ground.**
+
+> **Tip:** Hold tilde/grave (`) to veinmine (using ftb ultimine).
+
+2. Crafting table on a stick (see jei for recipe): **This is a portable crafting table that you can use anywhere using the keybind `X`, put it in your crafting on a stick slot on curio using `G`.**
+
+3. Backpacks: **Sophisticated backpacks add a backpack that can go in your back slot and allow you to store alot more items while on the go. This can be taken further by upgrading them using multiple tiers or adding updates.**
+
+4. Realistic torches: **Torches will need to be lit using a matchbox or flint and steel after crafting them. They will also go out if it is raining or after an hour of irl time.**
+
+5. Locational health: **First aid makes it so that each limb of your body (plus head and torso) have their own health points. Press `H` or refer to the ragdoll in the bottom right for your current stats.**
+
+6. Drinking water: **You will need to drink water to stay hydrated, you can drink from water sources using `shift + right click` or by crafting a water bottle.**
+
+7. Enviormental effects: **The environment can affect you in many ways, such as heatstroke, hypothermia, keep an eye on your temperature (the square between your health bars).**
+
+---
+
+8. Comforts: **Sleeping bags allow you to sleep on the go without changing your spawn point.**
  
 ## Keybinds
 Most are the same as default. Some notable ones are as follows:

@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: ""
+	id: "2D4BCB08213C2D01"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49DA83EDAB77A8A2"
+			subtitle: "Due to dynamic tree's making thicker trees unable to be broken with your fist, you will need to punch the leaves for sticks or break logs on the ground."
+			tasks: [{
+				id: "39E18E10ABC50289"
+				item: "minecraft:oak_log"
+				title: "Obtaining wood"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "3C5CAC899697543F"
+			shape: "diamond"
+			subtitle: "Hold tilde/grave (`) to veinmine (using ftb ultimine)."
+			tasks: [{
+				id: "23C0097EBBFA22BE"
+				title: "Vein mining"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49DA83EDAB77A8A2"]
+			id: "0391ED5C6E5C6888"
+			tasks: [{
+				id: "4701E4AE84AE4E72"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Harvesting more wood"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "117D840F6F90FEDE"
+			subtitle: "This is a portable crafting table that you can use anywhere using the keybind X, put it in your crafting on a stick slot on curio using G."
+			tasks: [{
+				id: "3B60D1F63C02DACB"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			title: "Portable crafting table"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "0723E4A08C3022D3"
+			subtitle: "Sophisticated backpacks add a backpack that can go in your back slot and allow you to store alot more items while on the go. This can be taken further by upgrading them using multiple tiers or adding updates."
+			tasks: [{
+				id: "24BEE1B07F8C2144"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Backpacks"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "5F8733B102DB9A89"
+			subtitle: "Torches will need to be lit using a matchbox or flint and steel after crafting them. They will also go out if it is raining or after an hour of irl time."
+			tasks: [
+				{
+					id: "371C3D118C8FE7CF"
+					item: "realistictorches:lit_torch"
+					type: "item"
+				}
+				{
+					id: "5C2697AF906E7FBA"
+					item: {
+						Count: 1
+						id: "realistictorches:matchbox"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Realistic torches"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "5F790EC676D213D2"
+			subtitle: "First aid makes it so that each limb of your body (plus head and torso) have their own health points. Press H or refer to the ragdoll in the bottom right for your current stats."
+			tasks: [{
+				id: "62632E1014D36759"
+				title: "Locational health"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F790EC676D213D2"]
+			id: "52627F4F40FB5403"
+			subtitle: "Tired of walking slow huh? Use these to regenerate health on parts of your body."
+			tasks: [
+				{
+					id: "23890AC313EB925F"
+					item: "firstaid:bandage"
+					type: "item"
+				}
+				{
+					id: "01F3AC32EF79904B"
+					item: "firstaid:plaster"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			id: "054882158B98AC93"
+			subtitle: "You will need to drink water to stay hydrated, you can drink from water sources using shift + right click or by crafting a water bottle."
+			tasks: [{
+				id: "4B4D5E4AADEC7296"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Drinking water"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["054882158B98AC93"]
+			id: "7C184DEDCC85CB64"
+			subtitle: "Keep in mind that some water sources are not safe to drink from and that purification through smelting water bottles is recommened to avoid sickness."
+			tasks: [{
+				id: "680AD0CCB0B22D4A"
+				title: "Water purification"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "4EB4BC2910C108E7"
+			subtitle: "The environment can affect you in many ways, such as heatstroke, hypothermia, keep an eye on your temperature (the square between your health bars)."
+			tasks: [{
+				id: "34C47884C1D9F539"
+				title: "Environmental effects"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EB4BC2910C108E7"]
+			id: "05C1A03857BFA761"
+			subtitle: "The goat fur armor set can help keep you warm in cold environments and during winter."
+			tasks: [{
+				id: "700B2833B35B3610"
+				item: {
+					Count: 1
+					id: "cold_sweat:goat_fur_cap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Staying warm"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EB4BC2910C108E7"]
+			id: "2B06531AF22734B8"
+			subtitle: "Is it really hot? are you in the nether? I'd recommend making hoglin armor set to keep you cool."
+			tasks: [{
+				id: "2BE24F0E40E5ED68"
+				item: {
+					Count: 1
+					id: "cold_sweat:hoglin_headpiece"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Staying cool"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "464704EE9810024D"
+			subtitle: "Sleeping bags allow you to sleep while travelling without changing your spawn point."
+			tasks: [{
+				id: "1578C5B92419F7D6"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Sleeping on the go"
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "The Beginning"
+}
