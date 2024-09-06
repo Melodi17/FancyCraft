@@ -15,3 +15,8 @@ usernamecache.json
 /config/xaerominimap_entities.json
 /config/sound_physics_remastered
 /config/tacz
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/recipe-category-sort-order.ini
+config/jei/world/local/quest_testing/bookmarks.ini
+config/quark-common.toml
+config/jecalculation/record.json
