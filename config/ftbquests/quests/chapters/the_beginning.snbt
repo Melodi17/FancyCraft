@@ -39,6 +39,46 @@
 			x: -9.5d
 			y: -3.5d
 		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/toast/tree.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "biomesoplenty:textures/painting/promised_land.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/chest_minecart"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -10.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -699,6 +739,94 @@
 			title: "Inferium seeds"
 			x: 7.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0723E4A08C3022D3"]
+			id: "6F8D644363FC66BC"
+			subtitle: "Storage drawers let you store bulk of one item, like a lot of it."
+			tasks: [{
+				id: "306670F2DF9E26AC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:oak_full_drawers_4"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:oak_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:oak_full_drawers_2"
+							}
+						]
+					}
+				}
+				title: "Any storage drawer"
+				type: "item"
+			}]
+			title: "Storage drawers"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6F8D644363FC66BC"]
+			id: "4C704D73D6F291C1"
+			subtitle: "Are you tired of searching chests for stuff? Applied energistics has the solution for you!"
+			tasks: [{
+				id: "10B2008725788E75"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			title: "Finding the AE2 Meteor"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4C704D73D6F291C1"]
+			id: "6C89D36578114FB7"
+			subtitle: "An ME system is a computer/network controlled item storage system. It can auto-craft and find items for you instantly."
+			tasks: [
+				{
+					id: "7C21B8D08B3E3C98"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "2F69F632D9CA12DD"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "557BE6A6367F88AA"
+					item: { Count: 16, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+				{
+					id: "76FE9A01DB602D9B"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
+			title: "ME System"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6F8D644363FC66BC"]
+			id: "49A1315361FD0839"
+			tasks: [{
+				id: "6A5D9C2CD1764360"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
 		}
 	]
 	title: "Guide"
