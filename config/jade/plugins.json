@@ -62,6 +62,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
@@ -78,6 +82,9 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "modularrouters": {
+    "router": true
   },
   "ars_nouveau": {
     "mob_jar": true
