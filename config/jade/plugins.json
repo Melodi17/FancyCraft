@@ -89,6 +89,9 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "hammerlib": {
+    "root": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -107,6 +110,9 @@
   "mysticalagradditions": {
     "infused_farmland": true
   },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -124,11 +130,5 @@
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
-  },
-  "storagedrawers": {
-    "display.stacklimit": true,
-    "main": true,
-    "display.content": true,
-    "display.status": true
   }
 }

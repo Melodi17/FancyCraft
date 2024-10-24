@@ -25,6 +25,7 @@
   "expatternprovider:jade_chamber": null,
   "expatternprovider:jade_wireless": null,
   "expatternprovider:tile_data": null,
+  "hammerlib:root": null,
   "jade:block_face": null,
   "jade:distance": null,
   "jade:mod_name": null,
@@ -85,5 +86,6 @@
   "supplementaries:present": null,
   "supplementaries:safe": null,
   "tombstone:graves": null,
+  "twilightforest:quest_ram_wool": null,
   "waystones:waystone": null
 }
