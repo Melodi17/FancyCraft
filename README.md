@@ -24,7 +24,7 @@ This pack is a combination of tech, magic and exploration. It is based of **All 
 ---
 
 8. Comforts: **Sleeping bags allow you to sleep on the go without changing your spawn point.**
- 
+
 ## Keybinds
 Most are the same as default. Some notable ones are as follows:
 
@@ -44,14 +44,6 @@ Iron Jetpacks:
 - `.` Increase throttle
 - `v` Toggle engine
 - `Control + H` Toggle hover
-
-Timeless and classics:
-- `Shift + R` Reload gun
-- `Shift + H` Inspect gun
-- `Shift + G` Configure fire mode
-- `Left click` Shoot
-- `Right click` Aim
-- `C` Zoom
 
 ## Modlist
 
