@@ -85,7 +85,12 @@
 	quests: [
 		{
 			id: "49DA83EDAB77A8A2"
-			subtitle: "Due to dynamic tree's making thicker trees unable to be broken with your fist, you will need to punch the leaves for sticks or break logs on the ground."
+			rewards: [{
+				id: "733547B068AB4829"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Get some logs!"
 			tasks: [{
 				id: "08B8E6C8D3875DA1"
 				item: {
@@ -102,6 +107,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4D52BA6552AF8C36"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:ghostly_pickaxe"
@@ -130,7 +136,7 @@
 				}
 			}
 			id: "0391ED5C6E5C6888"
-			subtitle: "Get yourself an axe so you can actually harvest thick trees."
+			subtitle: "Get yourself an axe so you can harvest trees in a timely manner"
 			tasks: [{
 				id: "4255E50BC7D53A40"
 				item: {
@@ -1003,6 +1009,151 @@
 			}]
 			x: -3.0d
 			y: 4.0d
+		}
+		{
+			id: "5675E1632C96FF02"
+			subtitle: "Explore! There's so much out there."
+			tasks: [{
+				id: "11F71A7B923FA0C8"
+				title: "Exploration"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D52BA6552AF8C36"]
+			id: "44346807C9AED9A8"
+			shape: "diamond"
+			subtitle: "Repair kits let you repair silent gear tools"
+			tasks: [{
+				id: "2E7A7BAB9A12AC23"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "silentgear:very_crude_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:crude_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:sturdy_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:crimson_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:azure_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Any repair kit"
+				type: "item"
+			}]
+			title: "Repair kits"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EB4BC2910C108E7"]
+			id: "1D4A55A56CBAA9D1"
+			subtitle: "Cools and heats your space based on the blocks put in it"
+			tasks: [{
+				id: "5B133CEB519D6D77"
+				item: "cold_sweat:hearth"
+				type: "item"
+			}]
+			title: "Minecraft ac unit equivelent"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			id: "33CE9FCB388B1CA9"
+			shape: "diamond"
+			subtitle: "Using flux networks, you can create networks for power transfer wirelessly!"
+			tasks: [
+				{
+					id: "02D8FD7DFCAB22DD"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "75B69A42EBCD1216"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "Wireless energy!"
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			id: "478BC1F5F2667D7B"
+			shape: "diamond"
+			subtitle: "Using a hose pulley in the nether lets you get infinite lava"
+			tasks: [{
+				id: "6FD7AC0762CC2657"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "Infinite lava"
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			id: "7C8E06220BD278DA"
+			shape: "diamond"
+			subtitle: "Pulls nearby items and xp to you. Can be put in your curio slots"
+			tasks: [{
+				id: "3F807D362B5F7BEB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplemagnets:advancedmagnet"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "simplemagnets:basicmagnet"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any magnet"
+				type: "item"
+			}]
+			title: "Magnets!"
+			x: 4.5d
+			y: -5.0d
 		}
 	]
 	title: "Guide"

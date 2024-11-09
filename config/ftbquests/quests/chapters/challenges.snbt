@@ -11,11 +11,42 @@
 		}
 	}
 	id: "4B1EB2D999F44465"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/container/enchanting_table/level_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/container/enchanting_table/level_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/container/enchanting_table/level_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -6.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			id: "59D2B258B1BFE051"
+			rewards: [{
+				id: "15607B6BAD199254"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 			subtitle: "Get all the information items."
 			tasks: [
 				{
@@ -45,12 +76,18 @@
 				}
 			]
 			title: "I know everything!"
-			x: -2.0d
-			y: -3.0d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			id: "6FDC2AE4FE097B1A"
-			subtitle: "Visit the spatial storage dimension"
+			rewards: [{
+				id: "6363A669C96A331D"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "diamond"
+			subtitle: "Visit the spatial storage dimension (you're probably trapped here)"
 			tasks: [{
 				dimension: "ae2:spatial_storage"
 				id: "5EE3E3E3E2257EE9"
@@ -58,11 +95,17 @@
 				type: "dimension"
 			}]
 			title: "How on... AE2 did we get here?"
-			x: 0.5d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
 			id: "1B6662FBBCD7C551"
+			rewards: [{
+				id: "391CCB2B49DA15F5"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "gear"
 			subtitle: "Get the awakened supremium block. Quite a feat."
 			tasks: [{
 				id: "4F0068E9E41A05F8"
@@ -70,8 +113,379 @@
 				type: "item"
 			}]
 			title: "Master farmer"
-			x: 3.0d
-			y: -6.0d
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "40776CD45BB1DD71"
+			rewards: [{
+				id: "06EA87FC0A86653E"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "diamond"
+			subtitle: "Obtain creative flight"
+			tasks: [{
+				id: "537AD706DE3BA37F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "apotheosis:long_flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanism:module_gravitational_modulating_unit"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:flight_augment"
+							}
+							{
+								Count: 1b
+								id: "angelring:angel_ring"
+							}
+						]
+					}
+				}
+				title: "Fly-enabling item"
+				type: "item"
+			}]
+			title: "Look! I can fly now!"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "218181B27D054C9E"
+			rewards: [{
+				id: "518A0BBB587AA5F5"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Play for 10 hours"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "763CFAA2B3ADC07B"
+				stat: "minecraft:play_time"
+				title: "Play for at least 10 hours"
+				type: "stat"
+				value: 72000
+			}]
+			title: "This game isn't that bad"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "2FED0543DB3B75E4"
+			rewards: [{
+				id: "133753E93378E826"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "gear"
+			subtitle: "Make a fission reactor"
+			tasks: [{
+				icon: "mekanismgenerators:fission_fuel_assembly"
+				id: "6695FA9CF8A2E9D8"
+				observe_type: 0
+				timer: 0L
+				title: "Make a fission reactor"
+				to_observe: "mekanismgenerators:control_rod_assembly"
+				type: "observation"
+			}]
+			title: "Now that's some power"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "09451FC6E4A0D64E"
+			rewards: [{
+				id: "5F9CD83F7B24D30C"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "gear"
+			subtitle: "See all the sites, live all the lives, visit all the biomes"
+			tasks: [{
+				advancement: "biomesoplenty:biomesoplenty/all_biomes"
+				criterion: ""
+				id: "5FA4D76073D7AB2A"
+				title: "Visital all the biomes"
+				type: "advancement"
+			}]
+			title: "Explorer"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			id: "01FA52B3A6530533"
+			rewards: [{
+				id: "49896D742B4553A5"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "diamond"
+			subtitle: "No more mining! Get yourself a digital miner"
+			tasks: [{
+				id: "2C5CC3392C6875B2"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "It's just craft now"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "0E1FEE62CC87F33F"
+			rewards: [{
+				id: "2A9AEB820F87D024"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Make an atomic disassembler"
+			tasks: [{
+				id: "7CDF0F3C940DB95B"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			title: "The electic swiss-army-knife"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "53D95655730CBDF6"
+			rewards: [{
+				id: "17D22B88083BEBDA"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "diamond"
+			subtitle: "Kill the ender dragon and watch the credits"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "65ED2571D5BF4265"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Beat the game"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "05560BF96A631F97"
+			rewards: [{
+				id: "35BFAD48911F63F0"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "diamond"
+			subtitle: "Obtain a netherite-tier storage container"
+			tasks: [{
+				id: "17C86E252A34E47F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_2"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_3"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_4"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									uuid: [I;
+										1619037102
+										-315339782
+										-2129456814
+										2045358336
+									]
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+							}
+						]
+					}
+				}
+				title: "Any netherite-tier storage container"
+				type: "item"
+			}]
+			title: "Now that's a lot of storage"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "106140E44DD90C1B"
+			rewards: [{
+				id: "67DD5D089CF8F3BC"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "gear"
+			subtitle: "Obtain tyrian steel"
+			tasks: [{
+				id: "5A4F89392F51CDE3"
+				item: "silentgear:tyrian_steel_ingot"
+				title: "Tyrian steel"
+				type: "item"
+			}]
+			title: "Silent gear wishes to congratulate you"
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "51C0F478B7EC11DE"
+			rewards: [{
+				id: "0273FAB94E7C8DC1"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "diamond"
+			subtitle: "Obtain a apotheosis perfect gem"
+			tasks: [{
+				id: "4E597C012426867C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+					}
+				}
+				title: "Perfect gem"
+				type: "item"
+			}]
+			title: "Woahh shiny gem"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "334174BA3ED7F774"
+			rewards: [{
+				id: "083E2A762EFE9E2A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Farm for eternal steak"
+			tasks: [{
+				id: "5CE42404DAC98303"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			title: "You'll never be hungry again"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "159E985231BF7547"
+			rewards: [{
+				id: "29FD7A88CDA6659A"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "45B97699B4628CB5"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 30
+							id: "hostilenetworks:artifacts/mimic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Simulating the universe at this point"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			id: "54965D9FA1DBD561"
+			rewards: [{
+				id: "5112B57A85DB48E4"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Get a netherite pickaxe"
+			tasks: [{
+				id: "7A751B81B4FE36E6"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Now you're playing minecraft"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "36973216872A73B5"
+			subtitle: "Get yourself a silk-touched spawner"
+			tasks: [{
+				id: "16151081984708C0"
+				item: {
+					Count: 1
+					id: "minecraft:spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Now this is a mob farm"
+			x: 6.5d
+			y: -2.5d
 		}
 	]
 	title: "Challenges"
