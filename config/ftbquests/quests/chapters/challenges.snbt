@@ -112,7 +112,7 @@
 				item: "mysticalagriculture:awakened_supremium_block"
 				type: "item"
 			}]
-			title: "Master farmer"
+			title: "Growing the universe"
 			x: 2.0d
 			y: -6.5d
 		}
@@ -190,16 +190,24 @@
 			}]
 			shape: "gear"
 			subtitle: "Make a fission reactor"
-			tasks: [{
-				icon: "mekanismgenerators:fission_fuel_assembly"
-				id: "6695FA9CF8A2E9D8"
-				observe_type: 0
-				timer: 0L
-				title: "Make a fission reactor"
-				to_observe: "mekanismgenerators:control_rod_assembly"
-				type: "observation"
-			}]
-			title: "Now that's some power"
+			tasks: [
+				{
+					icon: "mekanismgenerators:fission_fuel_assembly"
+					id: "6695FA9CF8A2E9D8"
+					observe_type: 0
+					timer: 0L
+					title: "Make a fission reactor"
+					to_observe: "mekanismgenerators:control_rod_assembly"
+					type: "observation"
+				}
+				{
+					count: 32L
+					id: "7589E7D91734C665"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
+			title: "Powering the universe"
 			x: 0.5d
 			y: -6.5d
 		}
@@ -219,7 +227,7 @@
 				title: "Visital all the biomes"
 				type: "advancement"
 			}]
-			title: "Explorer"
+			title: "Exploring the universe"
 			x: -1.0d
 			y: -6.5d
 		}
@@ -374,7 +382,7 @@
 				title: "Tyrian steel"
 				type: "item"
 			}]
-			title: "Silent gear wishes to congratulate you"
+			title: "Empowering the universe"
 			x: 3.5d
 			y: -6.5d
 		}
@@ -444,7 +452,7 @@
 				}
 				type: "item"
 			}]
-			title: "Simulating the universe at this point"
+			title: "Simulating the universe"
 			x: 5.0d
 			y: -6.5d
 		}
@@ -486,6 +494,17 @@
 			title: "Now this is a mob farm"
 			x: 6.5d
 			y: -2.5d
+		}
+		{
+			id: "1A20CFBA6089FD98"
+			tasks: [{
+				id: "1AEABB40F0EE8EA5"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			title: "Storing the universe"
+			x: 6.5d
+			y: -6.5d
 		}
 	]
 	title: "Challenges"

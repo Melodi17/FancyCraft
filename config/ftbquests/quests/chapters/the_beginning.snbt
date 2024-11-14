@@ -469,7 +469,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "325A11B29820EB46"
 				item: {
