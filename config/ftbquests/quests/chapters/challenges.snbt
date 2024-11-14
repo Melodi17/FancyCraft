@@ -438,6 +438,7 @@
 				xp_levels: 100
 			}]
 			shape: "gear"
+			subtitle: "Simulate a advanced mimic data model"
 			tasks: [{
 				id: "45B97699B4628CB5"
 				item: {
@@ -445,7 +446,7 @@
 					id: "hostilenetworks:data_model"
 					tag: {
 						data_model: {
-							data: 30
+							data: 300
 							id: "hostilenetworks:artifacts/mimic"
 						}
 					}
@@ -497,6 +498,12 @@
 		}
 		{
 			id: "1A20CFBA6089FD98"
+			rewards: [{
+				id: "55FBAE9722705A1B"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			subtitle: "Get a 256M storage cell"
 			tasks: [{
 				id: "1AEABB40F0EE8EA5"
 				item: "megacells:cell_component_256m"
