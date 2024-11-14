@@ -116,6 +116,11 @@
 				}
 			}
 			id: "3C5CAC899697543F"
+			rewards: [{
+				id: "05BB796C491B6F91"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Hold tilde/grave (`) to veinmine (using ftb ultimine)."
 			tasks: [{
@@ -136,6 +141,11 @@
 				}
 			}
 			id: "0391ED5C6E5C6888"
+			rewards: [{
+				id: "1DFCECBB6C9BC6BE"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Get yourself an axe so you can harvest trees in a timely manner"
 			tasks: [{
 				id: "4255E50BC7D53A40"
@@ -155,6 +165,11 @@
 		}
 		{
 			id: "117D840F6F90FEDE"
+			rewards: [{
+				id: "15B9D54566B1C5D7"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "This is a portable crafting table that you can use anywhere using the keybind X, put it in your crafting on a stick slot on curio using G."
 			tasks: [{
@@ -168,6 +183,11 @@
 		}
 		{
 			id: "0723E4A08C3022D3"
+			rewards: [{
+				id: "33A6E41E8E3CD471"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Sophisticated backpacks add a backpack that can go in your back slot and allow you to store alot more items while on the go. This can be taken further by upgrading them using multiple tiers or adding updates."
 			tasks: [{
 				id: "24BEE1B07F8C2144"
@@ -180,6 +200,11 @@
 		}
 		{
 			id: "5F8733B102DB9A89"
+			rewards: [{
+				id: "10AB9EFFAB73C3CC"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Torches will need to be lit using a matchbox or flint and steel after crafting them. They will also go out if it is raining or after an hour of irl time."
 			tasks: [
 				{
@@ -206,6 +231,11 @@
 		{
 			icon: "bhc:red_heart"
 			id: "5F790EC676D213D2"
+			rewards: [{
+				id: "75A0ED3FE8C8771F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "First aid makes it so that each limb of your body (plus head and torso) have their own health points. Press H or refer to the ragdoll in the bottom right for your current stats."
 			tasks: [{
 				id: "62632E1014D36759"
@@ -218,6 +248,11 @@
 		{
 			dependencies: ["5F790EC676D213D2"]
 			id: "52627F4F40FB5403"
+			rewards: [{
+				id: "3533D152E71ADB21"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Tired of walking slow huh? Use these to regenerate health on parts of your body."
 			tasks: [{
 				id: "532C4816C97C49EB"
@@ -246,6 +281,11 @@
 		}
 		{
 			id: "054882158B98AC93"
+			rewards: [{
+				id: "7B17FB15DCBD8104"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "You will need to drink water to stay hydrated, you can drink from water sources using shift + right click or by crafting a water bottle."
 			tasks: [{
 				id: "4B4D5E4AADEC7296"
@@ -266,6 +306,11 @@
 		{
 			dependencies: ["054882158B98AC93"]
 			id: "7C184DEDCC85CB64"
+			rewards: [{
+				id: "11D8361CC57913F2"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Keep in mind that some water sources are not safe to drink from and that purification through smelting water bottles is recommened to avoid sickness."
 			tasks: [{
 				id: "680AD0CCB0B22D4A"
@@ -278,6 +323,11 @@
 		{
 			icon: "cold_sweat:thermometer"
 			id: "4EB4BC2910C108E7"
+			rewards: [{
+				id: "325B33FEA417CB81"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "The environment can affect you in many ways, such as heatstroke, hypothermia, keep an eye on your temperature (the square between your health bars)."
 			tasks: [{
 				id: "34C47884C1D9F539"
@@ -290,6 +340,11 @@
 		{
 			dependencies: ["4EB4BC2910C108E7"]
 			id: "05C1A03857BFA761"
+			rewards: [{
+				id: "5ADCAD1B358A5FAA"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "The goat fur armor set can help keep you warm in cold environments and during winter."
 			tasks: [{
 				id: "29BE030EE1F6AE58"
@@ -339,6 +394,11 @@
 		{
 			dependencies: ["4EB4BC2910C108E7"]
 			id: "2B06531AF22734B8"
+			rewards: [{
+				id: "4F3084A4D2304E40"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Is it really hot? Are you in the nether? I'd recommend making hoglin armor set to keep you cool."
 			tasks: [{
 				id: "15970722637135E2"
@@ -387,6 +447,11 @@
 		}
 		{
 			id: "464704EE9810024D"
+			rewards: [{
+				id: "30DBA45FE7CCBBD6"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Sleeping bags allow you to sleep while travelling without changing your spawn point."
 			tasks: [{
 				id: "1578C5B92419F7D6"
@@ -399,6 +464,12 @@
 		}
 		{
 			id: "7CAA60FC2B30BB27"
+			rewards: [{
+				id: "1FF1B89C4AE986C6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
 			tasks: [{
 				id: "325A11B29820EB46"
 				item: {
@@ -422,6 +493,11 @@
 		{
 			dependencies: ["3002141B03EBA6F1"]
 			id: "48A9E620AB1CF297"
+			rewards: [{
+				id: "4916E3011A2DB4CE"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Mystical agriculture allows you to grow ores and mobs."
 			tasks: [{
 				id: "4627CF7963E94EB3"
@@ -435,6 +511,11 @@
 		{
 			dependencies: ["4EB4BC2910C108E7"]
 			id: "6C264BFDDDD52899"
+			rewards: [{
+				id: "10D4D48AA516A92E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Is fit for both environments, but is less effective"
 			tasks: [{
 				id: "59F9FEE79F5C520B"
@@ -490,6 +571,11 @@
 				}
 			}
 			id: "4D52BA6552AF8C36"
+			rewards: [{
+				id: "2803C48D3E371290"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "It's called Minecraft for a reason right?"
 			tasks: [{
 				id: "58C9D80C5CC158FA"
@@ -509,6 +595,11 @@
 		{
 			dependencies: ["4EB4BC2910C108E7"]
 			id: "53C236E3B79D9A8D"
+			rewards: [{
+				id: "7FE479163ADF73B8"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "You can use a sewing table to embed materials into your armor to make it better for specific climates. Yay! no more leather armor."
 			tasks: [{
 				id: "4B4EBB8791212DC1"
@@ -522,6 +613,11 @@
 		{
 			dependencies: ["5F8733B102DB9A89"]
 			id: "2CAC4A088A6AF895"
+			rewards: [{
+				id: "635A7ECD8BA4D8F4"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "You can make normal torches that don't go out using glowstone crystals, or by cooking sticks on a campfire."
 			tasks: [{
 				id: "3CD4D196000F4C2C"
@@ -542,6 +638,11 @@
 				}
 			}
 			id: "782EB1F976B4A5EC"
+			rewards: [{
+				id: "27D0EE1A6921BC56"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "A paxel is a shovel, pickaxe, axe, all in one!"
 			tasks: [{
@@ -563,6 +664,11 @@
 		{
 			dependencies: ["3002141B03EBA6F1"]
 			id: "029AC0230E9FDB9E"
+			rewards: [{
+				id: "1F2FC102C52CDFCF"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Botany pots let you grow plants inside of them! Like a mini version."
 			tasks: [{
 				id: "5299DA21A151E8E8"
@@ -576,6 +682,11 @@
 		{
 			dependencies: ["029AC0230E9FDB9E"]
 			id: "5D942FA1FEC383E7"
+			rewards: [{
+				id: "0ED6E29357E52E37"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Same as the botany pot, but it can deposit into a chest or other storage block underneath it."
 			tasks: [{
 				id: "1649FE95F0EB406F"
@@ -588,6 +699,11 @@
 		}
 		{
 			id: "3002141B03EBA6F1"
+			rewards: [{
+				id: "7694775E7F31694E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "416800F46DECA255"
 				item: {
@@ -607,6 +723,11 @@
 		{
 			dependencies: ["4D52BA6552AF8C36"]
 			id: "67F3CE22F4980939"
+			rewards: [{
+				id: "0B1FC8EAAC8EF48A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Thanks to Create, we have copper tools now too."
 			tasks: [{
 				id: "3E334814CF973D12"
@@ -715,6 +836,11 @@
 		{
 			dependencies: ["4D52BA6552AF8C36"]
 			id: "4BC62F64FCA13E6E"
+			rewards: [{
+				id: "18447A9A143AEFDC"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Ore hammers allow you to increase the ore yield per ore, by crushing it into dust then smelting it."
 			tasks: [{
@@ -736,6 +862,11 @@
 		{
 			dependencies: ["48A9E620AB1CF297"]
 			id: "09C2F52E56F996E5"
+			rewards: [{
+				id: "43F987BEF1C40ECF"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Might need these to make a lot of inferium."
 			tasks: [{
 				id: "388FD2C4BC306748"
@@ -749,6 +880,11 @@
 		{
 			dependencies: ["0723E4A08C3022D3"]
 			id: "6F8D644363FC66BC"
+			rewards: [{
+				id: "2BE34203702E0ADF"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Sophisticated storage lets you store bulk of one item, like a lot of it."
 			tasks: [{
 				id: "1118B5E8ACC3A2D0"
@@ -782,6 +918,11 @@
 		{
 			dependencies: ["6F8D644363FC66BC"]
 			id: "4C704D73D6F291C1"
+			rewards: [{
+				id: "30DF667E8EA58609"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Are you tired of searching chests for stuff? Applied energistics has the solution for you!"
 			tasks: [{
 				id: "10B2008725788E75"
@@ -795,6 +936,11 @@
 		{
 			dependencies: ["4C704D73D6F291C1"]
 			id: "6C89D36578114FB7"
+			rewards: [{
+				id: "443DD54905C12755"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "An ME system is a computer/network controlled item storage system. It can auto-craft and find items for you instantly."
 			tasks: [
 				{
@@ -826,6 +972,11 @@
 		{
 			dependencies: ["6F8D644363FC66BC"]
 			id: "49A1315361FD0839"
+			rewards: [{
+				id: "3EE3EDA86425034A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6A5D9C2CD1764360"
 				item: "minecraft:stripped_oak_log"
@@ -837,6 +988,11 @@
 		{
 			dependencies: ["029AC0230E9FDB9E"]
 			id: "57CF3C9C916BCE79"
+			rewards: [{
+				id: "1F48DA38099F3CC6"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Some saplings are unsuitable to go in a botany pot, so you can craft them with a dirt bucket to get the original sapling"
 			tasks: [{
@@ -851,6 +1007,11 @@
 		{
 			dependencies: ["7C184DEDCC85CB64"]
 			id: "1E6128A03BC25534"
+			rewards: [{
+				id: "1D1C128370C2DDC2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					id: "2024D22CC6A85DC1"
@@ -877,6 +1038,11 @@
 		{
 			dependencies: ["464704EE9810024D"]
 			id: "2E5ECCAC96D1118C"
+			rewards: [{
+				id: "030164EEC675A84A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Who doesn't want a soft plushie?"
 			tasks: [{
 				id: "139E5B88C3909376"
@@ -922,6 +1088,11 @@
 		{
 			dependencies: ["464704EE9810024D"]
 			id: "2CF15DDE648BC1D8"
+			rewards: [{
+				id: "245B2631B9A776EE"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Thanks to easy villagers, you can pick up villagers with the V key!"
 			tasks: [{
 				id: "066EF0F9D5158299"
@@ -940,6 +1111,11 @@
 		{
 			dependencies: ["2CF15DDE648BC1D8"]
 			id: "6E991BDFF8EA4377"
+			rewards: [{
+				id: "13DD895B6B929582"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Breed your villagers without having to make them a comfy room setup, just put two villagers in here and give them food"
 			tasks: [{
@@ -953,6 +1129,11 @@
 		{
 			dependencies: ["2CF15DDE648BC1D8"]
 			id: "76D1D29255CAAAAC"
+			rewards: [{
+				id: "132132989B780892"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Force villagers to farm for you forever! Place a villager and a crop in here for profit"
 			tasks: [{
@@ -966,6 +1147,11 @@
 		{
 			dependencies: ["2CF15DDE648BC1D8"]
 			id: "6DE642D368051400"
+			rewards: [{
+				id: "6B0CE0431916D8F0"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Iron farms are repetative and annoying to make! Introducting 1-block villager terrorizer for iron!"
 			tasks: [{
@@ -979,6 +1165,11 @@
 		{
 			dependencies: ["2CF15DDE648BC1D8"]
 			id: "1114F2855CCF8372"
+			rewards: [{
+				id: "3DAAE76AC8075C99"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Got pesky baby villagers that won't grow up? Put them in here"
 			tasks: [{
@@ -992,6 +1183,11 @@
 		{
 			dependencies: ["2CF15DDE648BC1D8"]
 			id: "200B526D8967DE89"
+			rewards: [{
+				id: "4B1BDC79C96DBB18"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Now you're ready to say hi to the villagers"
 			tasks: [{
 				id: "6B343B93ED158C90"
@@ -1012,6 +1208,11 @@
 		}
 		{
 			id: "5675E1632C96FF02"
+			rewards: [{
+				id: "1ED3799F73CCAAD8"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Explore! There's so much out there."
 			tasks: [{
 				id: "11F71A7B923FA0C8"
@@ -1024,6 +1225,11 @@
 		{
 			dependencies: ["4D52BA6552AF8C36"]
 			id: "44346807C9AED9A8"
+			rewards: [{
+				id: "153DA7919E960C26"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Repair kits let you repair silent gear tools"
 			tasks: [{
@@ -1081,6 +1287,11 @@
 		{
 			dependencies: ["4EB4BC2910C108E7"]
 			id: "1D4A55A56CBAA9D1"
+			rewards: [{
+				id: "51CFF0AA8CEBE1F6"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Cools and heats your space based on the blocks put in it"
 			tasks: [{
 				id: "5B133CEB519D6D77"
@@ -1093,6 +1304,11 @@
 		}
 		{
 			id: "33CE9FCB388B1CA9"
+			rewards: [{
+				id: "02F9AB3DE409F589"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Using flux networks, you can create networks for power transfer wirelessly!"
 			tasks: [
@@ -1113,6 +1329,11 @@
 		}
 		{
 			id: "478BC1F5F2667D7B"
+			rewards: [{
+				id: "06F18A7A809698E4"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Using a hose pulley in the nether lets you get infinite lava"
 			tasks: [{
