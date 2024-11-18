@@ -103,7 +103,7 @@
 #Teleport settings
 [teleport]
 	#Whether direct teleport is enabled. It is recommended to leave this enabled for players prone to VR sickness.
-	enabled = true
+	enabled = false
 	#Enforce limited teleport range and frequency in survival.
 	limitedSurvival = false
 	#Maximum blocks players can teleport up. Set to 0 to disable.
